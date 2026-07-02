@@ -14,14 +14,15 @@ if (-not (Test-Path $Scalingo)) {
     throw "Scalingo CLI not found: $Scalingo"
 }
 
-function Get-BotToken {
-    if (-not (Test-Path $EnvFile)) { return $null }
+function Get-EnvVars {
+    $vars = @{}
+    if (-not (Test-Path $EnvFile)) { return $vars }
     foreach ($line in Get-Content $EnvFile) {
-        if ($line -match '^\s*BOT_TOKEN\s*=\s*(.+)\s*$') {
-            return $Matches[1].Trim()
+        if ($line -match '^\s*([A-Z_][A-Z0-9_]*)\s*=\s*(.+)\s*$') {
+            $vars[$Matches[1]] = $Matches[2].Trim()
         }
     }
-    return $null
+    return $vars
 }
 
 function Get-ScalingoToken {
@@ -52,13 +53,17 @@ Write-Host "=== 2. Login Scalingo ===" -ForegroundColor Cyan
 & $Scalingo login --api-token $token 2>&1 | Out-Host
 if ($LASTEXITCODE -ne 0) { throw "scalingo login failed" }
 
-Write-Host "=== 3. Env vars ===" -ForegroundColor Cyan
-$botToken = Get-BotToken
-if ($botToken) {
-    & $Scalingo --app $App --region $Region env-set "BOT_TOKEN=$botToken" "PYTHONUNBUFFERED=1" "PROJECT_DIR=xscam_bot" "PROXY=" 2>&1 | Out-Host
-} else {
-    & $Scalingo --app $App --region $Region env-set "PYTHONUNBUFFERED=1" "PROJECT_DIR=xscam_bot" "PROXY=" 2>&1 | Out-Host
-}
+Write-Host "=== 3. Env vars (main + admin bot) ===" -ForegroundColor Cyan
+$envVars = Get-EnvVars
+$scalingoEnv = @(
+    "PYTHONUNBUFFERED=1",
+    "PROJECT_DIR=xscam_bot",
+    "PROXY="
+)
+if ($envVars["BOT_TOKEN"]) { $scalingoEnv += "BOT_TOKEN=$($envVars['BOT_TOKEN'])" }
+if ($envVars["ADMIN_BOT_TOKEN"]) { $scalingoEnv += "ADMIN_BOT_TOKEN=$($envVars['ADMIN_BOT_TOKEN'])" }
+if ($envVars["ADMIN_PASSWORD"]) { $scalingoEnv += "ADMIN_PASSWORD=$($envVars['ADMIN_PASSWORD'])" }
+& $Scalingo --app $App --region $Region env-set @scalingoEnv 2>&1 | Out-Host
 & $Scalingo --app $App --region $Region env-unset BUILDPACK_NAME 2>&1 | Out-Null
 
 Write-Host "=== 4. Clear cache and deploy ===" -ForegroundColor Cyan

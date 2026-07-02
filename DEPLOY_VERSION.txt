@@ -1,3 +1,4 @@
-deploy=a02ac35
+deploy=admin+bot
 stack=scalingo-26
-trigger=2026-07-02 16:33:31
+worker=main+admin in bot.py
+trigger=2026-07-02 16:50:04
