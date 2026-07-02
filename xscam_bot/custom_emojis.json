@@ -1,0 +1,292 @@
+{
+  "5778575233422200567": {
+    "document_id": 5778575233422200567,
+    "alt": "👤Д",
+    "offset": 0,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5778575233422200567.webp",
+    "name": "start_привет_иконка_Д",
+    "title": "Старт — «👤Д» в «Добро Пожаловать»"
+  },
+  "5994750571041525522": {
+    "document_id": 5994750571041525522,
+    "alt": " П",
+    "offset": 29,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5994750571041525522.webp",
+    "name": "start_буква_П",
+    "title": "Старт — буква « П» (Добро Пожаловать)"
+  },
+  "5881702736843511327": {
+    "document_id": 5881702736843511327,
+    "alt": "Ес",
+    "offset": 75,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5881702736843511327.webp",
+    "name": "если_или_предупреждение",
+    "title": "Старт «Если» / Info «⚠️» (один ID на оба)"
+  },
+  "5879813604068298387": {
+    "document_id": 5879813604068298387,
+    "alt": "У",
+    "offset": 133,
+    "length": 1,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5879813604068298387.webp",
+    "name": "start_буква_У",
+    "title": "Старт — буква «У»"
+  },
+  "5874960879434338403": {
+    "document_id": 5874960879434338403,
+    "alt": "ро",
+    "offset": 259,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5874960879434338403.webp",
+    "name": "start_буква_ро",
+    "title": "Старт — «ро» (Пожаловать)"
+  },
+  "5936017305585586269": {
+    "document_id": 5936017305585586269,
+    "alt": "🪪 ",
+    "offset": 0,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5936017305585586269.webp",
+    "name": "профиль_id_паспорт",
+    "title": "Профиль — иконка ID (🪪)"
+  },
+  "5920052658743283381": {
+    "document_id": 5920052658743283381,
+    "alt": "]",
+    "offset": 36,
+    "length": 1,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5920052658743283381.webp",
+    "name": "admins_скобка_закрыт",
+    "title": "Админы — символ «]»"
+  },
+  "5807465992363710697": {
+    "document_id": 5807465992363710697,
+    "alt": "Гл",
+    "offset": 81,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5807465992363710697.webp",
+    "name": "admins_буквы_Админ",
+    "title": "Админы — буквы «Ад» / «Гл» / «ар»"
+  },
+  "5807868868886009920": {
+    "document_id": 5807868868886009920,
+    "alt": " @",
+    "offset": 106,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5807868868886009920.webp",
+    "name": "admins_символ_собака",
+    "title": "Админы — « @» перед ником"
+  },
+  "5870994129244131212": {
+    "document_id": 5870994129244131212,
+    "alt": "vm",
+    "offset": 273,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5870994129244131212.webp",
+    "name": "профиль_текст_ник",
+    "title": "Профиль — фрагменты ника/текста"
+  },
+  "5228686859663585439": {
+    "document_id": 5228686859663585439,
+    "alt": "👁‍🗨 О",
+    "offset": 0,
+    "length": 5,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5228686859663585439.webp",
+    "name": "garants_заголовок_глаз",
+    "title": "Гаранты — «👁‍🗨 О» в заголовке"
+  },
+  "5951665890079544884": {
+    "document_id": 5951665890079544884,
+    "alt": "Э",
+    "offset": 40,
+    "length": 1,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5951665890079544884.webp",
+    "name": "garants_буква_Э",
+    "title": "Гаранты — «Э» (Элитные)"
+  },
+  "5771868281212245617": {
+    "document_id": 5771868281212245617,
+    "alt": "на",
+    "offset": 87,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5771868281212245617.webp",
+    "name": "garants_текст_на",
+    "title": "Гаранты — «на» в тексте списка"
+  },
+  "5913702317667913862": {
+    "document_id": 5913702317667913862,
+    "alt": "ло",
+    "offset": 110,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5913702317667913862.webp",
+    "name": "garants_текст_ло",
+    "title": "Гаранты — «ло» в тексте"
+  },
+  "5994378914636500516": {
+    "document_id": 5994378914636500516,
+    "alt": "ин",
+    "offset": 134,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5994378914636500516.webp",
+    "name": "garants_текст_ин",
+    "title": "Гаранты — «ин» в тексте"
+  },
+  "5958376256788502078": {
+    "document_id": 5958376256788502078,
+    "alt": "то",
+    "offset": 152,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5958376256788502078.webp",
+    "name": "garants_текст_то",
+    "title": "Гаранты — «то» в тексте"
+  },
+  "5985630530111020079": {
+    "document_id": 5985630530111020079,
+    "alt": "ос",
+    "offset": 156,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5985630530111020079.webp",
+    "name": "garants_текст_ос",
+    "title": "Гаранты — «ос» в тексте"
+  },
+  "5942877472163892475": {
+    "document_id": 5942877472163892475,
+    "alt": "ен",
+    "offset": 180,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5942877472163892475.webp",
+    "name": "garants_текст_ен",
+    "title": "Гаранты — «ен» в тексте"
+  },
+  "5875465628285931233": {
+    "document_id": 5875465628285931233,
+    "alt": "✈️",
+    "offset": 0,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5875465628285931233.webp",
+    "name": "info_иконка_самолёт",
+    "title": "Info — иконка ✈️"
+  },
+  "5931409969613116639": {
+    "document_id": 5931409969613116639,
+    "alt": "🛡 ",
+    "offset": 98,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5931409969613116639.webp",
+    "name": "info_иконка_щит",
+    "title": "Info — иконка 🛡"
+  },
+  "5778423822940114949": {
+    "document_id": 5778423822940114949,
+    "alt": " А",
+    "offset": 142,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5778423822940114949.webp",
+    "name": "info_буква_А",
+    "title": "Info — « А» (Админов)"
+  },
+  "5258096772776991776": {
+    "document_id": 5258096772776991776,
+    "alt": "р",
+    "offset": 39,
+    "length": 1,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5258096772776991776.webp",
+    "name": "профиль_буква_р",
+    "title": "Профиль — «р» (Проверка)"
+  },
+  "5877495434124988415": {
+    "document_id": 5877495434124988415,
+    "alt": "ол",
+    "offset": 67,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5877495434124988415.webp",
+    "name": "профиль_буква_ол",
+    "title": "Профиль — «ол» (роль)"
+  },
+  "5884123981706956210": {
+    "document_id": 5884123981706956210,
+    "alt": "ол",
+    "offset": 90,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5884123981706956210.webp",
+    "name": "профиль_буква_ол_2",
+    "title": "Профиль — второй «ол»"
+  },
+  "5870695289714643076": {
+    "document_id": 5870695289714643076,
+    "alt": "🔎П",
+    "offset": 116,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5870695289714643076.webp",
+    "name": "профиль_искали_лупа",
+    "title": "Профиль — «🔎П» (искали)"
+  },
+  "5429571366384842791": {
+    "document_id": 5429571366384842791,
+    "alt": "ьз",
+    "offset": 120,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5429571366384842791.webp",
+    "name": "профиль_буква_ьз",
+    "title": "Профиль — «ьз» (пользователя)"
+  },
+  "5350626672028697529": {
+    "document_id": 5350626672028697529,
+    "alt": "е",
+    "offset": 150,
+    "length": 1,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5350626672028697529.webp",
+    "name": "профиль_буква_е",
+    "title": "Профиль — «е»"
+  },
+  "5258105663359294787": {
+    "document_id": 5258105663359294787,
+    "alt": " п",
+    "offset": 174,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5258105663359294787.webp",
+    "name": "профиль_буква_п_дата",
+    "title": "Профиль — « п» (дата/раз)"
+  },
+  "5877530150345641603": {
+    "document_id": 5877530150345641603,
+    "alt": "‍e",
+    "offset": 175,
+    "length": 2,
+    "is_premium": true,
+    "asset_path": "assets/emojis/emoji_5883964170268840032.webp",
+    "name": "admins_ник_старший",
+    "title": "Админы — [👤] у старших (@eflawii, @n5kiss)"
+  }
+}

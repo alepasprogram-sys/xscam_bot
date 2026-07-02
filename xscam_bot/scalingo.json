@@ -1,0 +1,13 @@
+{
+  "name": "xscam-bot",
+  "description": "X-Scam Telegram bot",
+  "env": {
+    "BUILDPACK_NAME": "python",
+    "PROXY": "",
+    "PYTHONUNBUFFERED": "1"
+  },
+  "formation": {
+    "web": { "quantity": 0, "size": "S" },
+    "worker": { "quantity": 1, "size": "S" }
+  }
+}

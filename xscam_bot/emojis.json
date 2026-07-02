@@ -1,0 +1,87 @@
+{
+  "👁": {
+    "char": "👁",
+    "count": 11,
+    "is_premium": false
+  },
+  "⚠": {
+    "char": "⚠",
+    "count": 35,
+    "is_premium": false
+  },
+  "🔎": {
+    "char": "🔎",
+    "count": 10,
+    "is_premium": false
+  },
+  "🛡️": {
+    "char": "🛡️",
+    "count": 1,
+    "is_premium": false
+  },
+  "🔄": {
+    "char": "🔄",
+    "count": 2,
+    "is_premium": false
+  },
+  "⚠️": {
+    "char": "⚠️",
+    "count": 10,
+    "is_premium": false
+  },
+  "📁": {
+    "char": "📁",
+    "count": 2,
+    "is_premium": false
+  },
+  "❓": {
+    "char": "❓",
+    "count": 9,
+    "is_premium": false
+  },
+  "📂": {
+    "char": "📂",
+    "count": 39,
+    "is_premium": false
+  },
+  "❌": {
+    "char": "❌",
+    "count": 2,
+    "is_premium": false
+  },
+  "🇷🇺": {
+    "char": "🇷🇺",
+    "count": 15,
+    "is_premium": false
+  },
+  "🇺🇦": {
+    "char": "🇺🇦",
+    "count": 15,
+    "is_premium": false
+  },
+  "🪼": {
+    "char": "🪼",
+    "count": 1,
+    "is_premium": false
+  },
+  "🔗": {
+    "char": "🔗",
+    "count": 31,
+    "is_premium": false
+  },
+  "⚡️": {
+    "char": "⚡️",
+    "count": 1,
+    "is_premium": false
+  },
+  "☑": {
+    "char": "☑",
+    "count": 1,
+    "is_premium": false
+  },
+  "🗨": {
+    "char": "🗨",
+    "count": 1,
+    "is_premium": false
+  }
+}

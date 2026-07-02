@@ -1,0 +1,14 @@
+.env
+.env.*
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.db-journal
+xscam.db
+data/
+.Python
+.venv/
+venv/
+terminals/
+*.log
+assets/custom_profiles/
