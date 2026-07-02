@@ -1,0 +1,4 @@
+deploy=e3001cc-monorepo
+layout=monorepo (root + xscam_bot/)
+project_dir=xscam_bot OR empty (both work)
+python=3.12

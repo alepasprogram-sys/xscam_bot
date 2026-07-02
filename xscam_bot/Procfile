@@ -1,1 +1,2 @@
+web: python -u serve_web.py
 worker: python -u bot.py
